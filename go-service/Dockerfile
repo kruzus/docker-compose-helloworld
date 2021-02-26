@@ -1,13 +1,12 @@
-FROM golang:1.15-alpine
-
+# FROM golang:1.15-alpine
+FROM scratch
 
 WORKDIR /app
 
-COPY . .
+COPY ./bin/app .
 
-RUN go get 
+CMD ["./app"]
 
-RUN go build
 
-CMD ["./godock"]
+
 
