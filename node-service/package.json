@@ -1,0 +1,20 @@
+{
+  "name": "dockerjs",
+  "version": "1.0.0",
+  "description": "simple rest api with express in a docker",
+  "main": "./dist/server.js",
+  "scripts": {
+    "server": "node ./dist/server.js",
+    "build": "tsc",
+    "clear": "rm -rf ./dist/"
+  },
+  "keywords": [
+    "yes"
+  ],
+  "author": "(https://www.github.com/kruzus)",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "express": "^4.17.1"
+  }
+}

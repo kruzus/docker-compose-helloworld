@@ -1,0 +1,10 @@
+version: "3.8"
+services: 
+  goservice:
+    build: ./go-service/
+    ports:
+      - "9000:9000"
+  nodeservice:
+    build: ./node-service/
+    ports:
+      - "8080:8080"
