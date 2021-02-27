@@ -1,2 +1,2 @@
 build:
-	go build -o ./bin/app
+	GOOS=linux GOARCH=arm64 go build -o ./bin/server

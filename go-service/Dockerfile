@@ -3,9 +3,9 @@ FROM scratch
 
 WORKDIR /app
 
-COPY ./bin/app .
+COPY ./bin/server .
 
-CMD ["./app"]
+CMD ["./server"]
 
 
 
